@@ -35,7 +35,7 @@ for epoch in range(epochs):
         print(f"Updated weights: {weights} | Bias: {bias:.2f}")
 
     if total_loss < 1e-5:
-        print("\n✅ Converged — all predictions correct.")
+        print("\n Converged — all predictions correct.")
         break
 else:
-    print("\n⚠️ Reached max epochs without full convergence.")
+    print("\n Reached max epochs without full convergence.")
